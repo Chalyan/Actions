@@ -1,71 +1,17 @@
 \documentclass{article}
 
 \usepackage[
-	a4paper, % Paper size
-	top=1in, % Top margin
-	bottom=1in, % Bottom margin
-	left=1in, % Left margin
-	right=1in, % Right margin
-	%showframe % Uncomment to show frames around the margins for debugging purposes
+    a4paper,
+    top=1in,
+    bottom=1in,
+    left=1in,
+    right=1in
 ]{geometry}
-
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{.5em}
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-
-\fancypagestyle{firstpage}{
-	\fancyhf{}
-	\renewcommand{\headrulewidth}{0pt}
-	\renewcommand{\footrulewidth}{0pt}
-}
-
-\fancypagestyle{subsequentpages}{
-	\fancyhf{}
-	\renewcommand{\headrulewidth}{1pt}
-	\renewcommand{\footrulewidth}{1pt}
-}
-
-\AtBeginDocument{\thispagestyle{firstpage}}
-\pagestyle{subsequentpages}
 
 \begin{document}
 
-\makebox[\textwidth][s]{{\bf PhD-Trainee Initial Research and Training Plan} \hfill { Gor Chalyan}}
-
-\rule{\linewidth}{1pt}
-
-\begin{center}
-    {\bf \large Thermal and quantum effects in the interaction of light with engineered particles and atom arrays}
-\end{center}
-
-\noindent\textbf{Project 1}
-
-Thermal friction is a poorly studied phenomenon that could lead to unexpected phenomena when considering ultrarelativistic velocities and engineered dielectric responses. In the first part of the trainee period, I will investigate the friction produced on a neutral body due to thermal radiation within a wide range of velocities of such an object relative to the thermal bath up to close to c. We are interested in exploring the possibility of finding negative friction (i.e., particle acceleration) when the object exhibits a spectrally narrow dielectric response that is Lorentz-shifted due to the velocity, such that more pressure is exerted on the object from the back side with respect to the velocity. We will explore this effect in thin films moving along an out-of-plane velocity, as well as small particles that can be described by a dipolar response, under the assumption that the thermal wavelength is large compared to the particle size. This first exercise will allow me to become familiar with some of the methods developed by the host group, and potentially lead to a publication, depending on the answer to the posed question: Can an object experience acceleration due to interaction with a thermal radiation bath? 
-
-\noindent\textbf{Project 2}
-
-In a subsequent project, I will study quantum excitations in atomic arrays formed by atoms trapped in holographic tweezer light patterns. In particular, we intend to study the nonlinear response of such arrays due to the Fermionic character of the atomic excitations. We will thus extend the concept of lattice resonances developed in the context of classical electrodynamics to quantum lattice resonances, which we intend to study for finite arrays hosting a small number of excitations. For a small concentration of excitations per particle, we will describe the systems by deriving a nonlinear susceptibility, therefore reducing the problem to a classical nonlinear optical response study. For small particle arrays, we will investigate quantum nonlinearities inherited from having a finite number of quantum levels in the system. We will also discuss the interaction of this type of system with free electrons in the context of the ERC Advanced grant QUEFES within the Nanophotonics Theory Group at ICFO.
-
-
-\noindent\textbf{Skills}
-
-In parallel with these scientific objectives, the training period will also be devoted to acquiring practical skills essential for the PhD. This includes learning and applying the group’s computational libraries, simulation tools, and efficiently running large-scale calculations. Emphasis will be placed on improving numerical methods, analytical techniques, and programming practices required to tackle theoretical problems in nanophotonics and light–matter interactions. Additionally, I will attend the weekly group meetings to present my work, report progress and gain a wider perspective on ongoing research in my group. I will hold regular discussions with my supervisor, Prof. Javier Garcia de Abajo, as well as with the other group members. Overall, the training period will provide the scientific and technical foundations needed to develop my PhD research in a rigorous and productive manner.
-
-\begin{thebibliography}{99}
-
-\bibitem{GaMa24}
-J. R. Deop-Ruano, A. Manjavacas, and F. J. García de Abajo, Thermal radiation forces on planar structures with asymmetric optical response, \textit{Nanophotonics} 13, 4569-4575 (2024).
-
-\bibitem{deAbajo07}
-F. J. García de Abajo,
-Colloquium: Light scattering by particle and hole arrays, \textit{Nano Letters} 21(6), 2444–2452 (2021).
-
-\bibitem{MkPa}
-V. Mkrtchian, V. A. Parsegian, R. Podgornik, W. M. Saslow, Universal thermal radiation drag on neutral objects,
-\textit{Phys. Rev. Lett.} 91, 220801 (2003).
-
-\end{thebibliography}
+\section*{Github Actions}
+This simple project is for the demonstration and the testing of \textit{tex-py-yml-pdf} cycle
+for more advanced paper writing and publication.
 
 \end{document}
-
